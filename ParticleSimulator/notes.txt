@@ -1,0 +1,68 @@
+Ant Colony Simulator
+
+Main Classes
+	Particle
+	Population
+	World
+	
+
+Framework Classes
+	Simulator	
+
+| Ideas |
+Neural network that is able to tweak the swarms parameters and think.
+
+Set an optimization goal for the neural network. Based on the amount of time it takes
+to solve the optimization, as well as additional factors (any ants died, reproduced...)
+
+Include Reproduction Rates!!! Death and birth of ants
+
+| General ACO Algorithm |
+1. Set Parameters
+2. Initialize pheromone
+3. Start epoch
+	- update position
+	- update pheromone
+
+
+| Log | 
+
+--2017.07.10--
+
+[Finished]:
+	- Ants appear in grid
+
+[To Do]: 
+	- [High]implement algorithm to start iteration 
+	- [Med]ability to click and set the target
+	
+--2017.07.13--
+
+[Finished]:
+	- Controls to start and pause the drawing. Only randomizes position right now
+
+[To Do]: 
+	- [High]implement algorithm to start iteration 
+	- [Med]ability to click and set the target
+	- [Med] implement pheromone trail
+	- [low] Output anys position to output
+
+[Questions]:
+	- Does it make more sense for the World to know the population original position or the population?
+	
+--2017.07.16--
+
+[Finished]:
+	- Can manually set target
+	- Worked on pheromone update. Depedant on target. Work on updating position next
+
+[To Do]: 
+	- [High]implement algorithm to start iteration 
+	- [Med]ability to click and set the target
+	- [Med] implement pheromone trail
+	- [low] Output anys position to output
+
+[Questions]:
+	- Does it make more sense for the World to know the population original position or the population?
+
+
